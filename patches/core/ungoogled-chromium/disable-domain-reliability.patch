@@ -44,7 +44,7 @@
  }  // namespace domain_reliability
 --- a/chrome/browser/net/profile_network_context_service.cc
 +++ b/chrome/browser/net/profile_network_context_service.cc
-@@ -182,8 +182,7 @@ class ChromeDomainReliabilityDelegate
+@@ -183,8 +183,7 @@ class ChromeDomainReliabilityDelegate
    ~ChromeDomainReliabilityDelegate() override = default;
  
    bool IsDomainReliabilityAllowed() const override {
@@ -710,7 +710,7 @@
  
 --- a/components/domain_reliability/uploader.cc
 +++ b/components/domain_reliability/uploader.cc
-@@ -80,7 +80,7 @@ class DomainReliabilityUploaderImpl : pu
+@@ -81,7 +81,7 @@ class DomainReliabilityUploaderImpl : pu
      if (discard_uploads_)
        discarded_upload_count_++;
  
